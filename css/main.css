@@ -40,12 +40,21 @@ a:hover {
 
 /* --- NAVIGATION BAR --- */
 
+.bg-dark {
+  background-color: #222!important;
+}
+
 .navbar-brand {
   font-family: 'Roboto Slab', serif;
   font-weight: normal;
   color: #fff;
   letter-spacing: 2px;
   text-shadow: 1px 1px 5px #26bf80;
+}
+
+.nav-link {
+  font-family: 'Rajdhani', serif!important;
+  text-transform: lowercase;
 }
 
 /* --- HEADER --- */
