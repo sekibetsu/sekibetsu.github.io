@@ -1,10 +1,10 @@
 /* --- BASICS --- */
 
 body {
-  font-family: 'Raleway', serif!important;
-  font-size: 18px!important;
-  background-color: #222222!important;
-  color: #eeeeee!important;
+  font-family: 'Raleway', serif !important;
+  font-size: 18px !important;
+  background-color: #222222 !important;
+  color: #eeeeee !important;
   letter-spacing: 1px;
   margin: 0px;
   padding-top: 50px;
@@ -12,8 +12,8 @@ body {
 }
 
 a {
-  color: #eeeeee!important;
-  text-decoration: none!important;
+  color: #eeeeee !important;
+  text-decoration: none !important;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
@@ -21,8 +21,8 @@ a {
 }
 
 a:hover {
-  color: #26bf80!important;
-  text-decoration: none!important;
+  color: #26bf80 !important;
+  text-decoration: none !important;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
@@ -33,7 +33,7 @@ a:hover {
   padding-left: 50px;
   padding-right: 50px;
   width: 75%;
-  max-width: 700px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -42,7 +42,6 @@ a:hover {
 
 .navbar-brand {
   font-family: 'Roboto Slab', serif;
-  font-size: 30px;
   font-weight: normal;
   color: #fff;
   letter-spacing: 2px;
@@ -93,7 +92,7 @@ a:hover {
   border: 1px solid #eee;
   border-radius: 10px;
   color: #fff;
-  width: 150px!important;
+  width: 150px !important;
   margin-left: auto;
   margin-right: auto;
   touch-action: manipulation;
@@ -105,13 +104,13 @@ a:hover {
 }
 
 .register a {
-  color: #fff!important;
-  font-size: 25px!important;
-  text-shadow: 0px 0px 10px #26bf80!important;
+  color: #fff !important;
+  font-size: 25px !important;
+  text-shadow: 0px 0px 10px #26bf80 !important;
 }
 
 .register:hover {
-  background: #26bf80!important;
+  background: #26bf80 !important;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
@@ -135,11 +134,4 @@ a:hover {
   border-bottom: 1px solid #eee;
   margin-top: 50px;
   margin-bottom: 30px;
-}
-
-/* --- SCHEDULE --- */
-
-#schedule {
-  padding-top: 150px;
-  padding-bottom: 150px;
 }
