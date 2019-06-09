@@ -12,7 +12,7 @@
     <title>DivHacks: Fall 2019</title>
     
     <!-- BOOTSTRAP CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     
     <!-- CUSTOM FONTS AND STYLES -->
     <link href = "main.css" rel = "stylesheet">
@@ -23,6 +23,53 @@
   </head>
   
   <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+      <!-- Navbar Container -->
+      <div class="container">
+
+          <!-- Navbar Header [contains both toggle button and navbar brand] -->
+          <div class="navbar-header">
+              <!-- Toggle Button [handles opening navbar components on mobile screens]-->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#exampleNavComponents" aria-expanded"false">
+                  <i class="glyphicon glyphicon-align-center"></i>
+              </button>
+
+              <!-- Navbar Brand -->
+              <a href="#page-top" class="navbar-brand">
+                  &lt;DivHacks&gt;
+              </a>
+          </div>
+
+
+          <!-- Navbar Collapse [contains navbar components such as navbar menu and forms ] -->
+          <div class="collapse navbar-collapse" id="exampleNavComponents">
+              <!-- Navbar Menu -->
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="active">
+                      <a href="#about">about</a>
+                  </li>
+                  <li>
+                      <a href="#schedule">schedule</a>
+                  </li>
+                  <li>
+                      <a href="#judges">judges</a>
+                  </li>
+                  <li>
+                      <a href="#prizes">prizes</a>
+                  </li>
+                  <li>
+                      <a href="#sponsors">sponsors</a>
+                  </li>
+                  <li>
+                      <a href="#faq">faq</a>
+                  </li>
+                  <li>
+                      <a href="#contact">contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
     <div id = "header">
       <div class = "container">
         <div class = "present"><i><a href="https://cuwics.github.io/">Columbia Womxn in Computer Science</a> presents:</i></div>
@@ -32,6 +79,7 @@
         <div class = "register"><a href="">REGISTER</a></div>
       </div>
     </div>
+    <a href = "#about"></a>
     <div id = "about">
       <div class = "container">
       <div class = "mtitle">about divhacks</div>
@@ -40,6 +88,10 @@
         The theme for DivHacks (Fall 2019) is <b>education for all</b>.
       </div>
    </div>
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   
   </body>
   
 </html>
