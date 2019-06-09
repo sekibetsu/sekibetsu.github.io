@@ -54,6 +54,7 @@ a:hover {
 
 .nav-link {
   font-family: 'Rajdhani', serif!important;
+  font-size: 25px!important;
   text-transform: lowercase;
 }
 
@@ -61,7 +62,7 @@ a:hover {
 
 #header {
   padding-top: 150px;
-  padding-bottom: 150px;
+  padding-bottom: 250px;
 }
 
 .htitle {
@@ -129,8 +130,8 @@ a:hover {
 /* --- ABOUT --- */
 
 #about {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 250px;
 }
 
 .mtitle {
@@ -148,27 +149,27 @@ a:hover {
 /* --- SCHEDULE --- */
 
 #schedule {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 250px;
 }
 
 /* --- SPONSORS --- */
 
 #sponsors {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 250px;
 }
 
 /* --- FAQ --- */
 
 #faq {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 250px;
 }
 
 /* --- CONTACT --- */
 
 #contact {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 250px;
 }
