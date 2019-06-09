@@ -9,42 +9,99 @@ body {
   text-align: center;
 }
 
-#container {
-  width: 100%;
+a {
+  color: #eeeeee;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #26bf80;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#header {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.container {
   padding-left: 50px;
   padding-right: 50px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
 
-h1 {
+.padder {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.htitle {
   font-family: 'Roboto Slab', serif;
-  font-size: 80px;
+  font-size: 120px;
+  font-weight: normal;
   color: #fff;
-  letter=spacing: 2px;
-  text-shadow: 2px 2px 5px #fff;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 5px #26bf80;
 }
 
 .present {
+  font-size: 14px;
   font-style: italic;
+  letter-spacing: 2px;
 }
 
 .desc {
+  margin-top: -20px;
   font-style: normal;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .info {
-  font-size: 20px;
+  margin-top: 20px;
+  font-family: 'Roboto Slab', serif;
+  border-top: 1px solid #eee;
+  font-size: 30px;
+  padding: 50px;
 }
 
 .register {
-  background: #26bf80;
+  background: #338060;
   padding: 5px 10px;
   border: 1px solid #eee;
+  border-radius: 10px;
   color: #fff;
   font-size: 24px;
-  min-width: 50px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
+.register a {
+  color: #fff;
+  font-size: 24px;
+  text-shadow: 1px 1px 5px #26bf80;
+}
 
-  
+.register:hover {
+  background: #26bf80;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
