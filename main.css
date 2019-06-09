@@ -31,6 +31,11 @@ a:hover {
   padding-bottom: 150px;
 }
 
+#about {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 .container {
   padding-left: 50px;
   padding-right: 50px;
@@ -106,4 +111,16 @@ a:hover {
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+}
+
+.mtitle {
+  font-family: 'Rajdhani', serif;
+  font-size: 30px;
+  color: #26bf80;
+  text-transform: lowercase;
+  text-align: left;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
