@@ -47,6 +47,7 @@ a:hover {
 .navbar-brand {
   font-family: 'Roboto Slab', serif;
   font-weight: normal;
+  font-size: 25px!important;
   color: #fff;
   letter-spacing: 2px;
   text-shadow: 1px 1px 5px #26bf80;
@@ -153,6 +154,35 @@ a:hover {
   padding-bottom: 250px;
 }
 
+table {
+  width: 100%;
+  max-width: 800px;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+tr {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+tr:hover {
+  background: #333;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+col:first-child {
+  font-weight: bold!important;
+}
+
 /* --- SPONSORS --- */
 
 #sponsors {
@@ -167,9 +197,34 @@ a:hover {
   padding-bottom: 250px;
 }
 
+.questions {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 50% 50%;
+}
+
+.question {
+  width: 100%;
+  padding: 10px;
+  max-width: 400px;
+  font-size: 14px!important;
+  display: block!important;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px!important;
+}
+
 /* --- CONTACT --- */
 
 #contact {
   padding-top: 50px;
   padding-bottom: 250px;
+}
+
+.ficons {
+  padding-top: 20px;
+  font-size: 50px;
+  letter-spacing: 10px;
 }
