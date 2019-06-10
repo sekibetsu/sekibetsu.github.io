@@ -1,6 +1,7 @@
 /* --- BASICS --- */
 
 body:not(i) {
+  position: relative;
   font-family: 'Raleway', serif;
   font-size: 18px !important;
   background-color: #222222 !important;
