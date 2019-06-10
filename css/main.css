@@ -1,0 +1,237 @@
+/* --- BASICS --- */
+
+body:not(i) {
+  font-family: 'Raleway', serif !important;
+  font-size: 18px !important;
+  background-color: #222222 !important;
+  color: #eeeeee !important;
+  letter-spacing: 1px;
+  margin: 0px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+a {
+  color: #eeeeee !important;
+  text-decoration: none !important;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #26bf80 !important;
+  text-decoration: none !important;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.incontainer {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 75%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --- NAVIGATION BAR --- */
+
+.bg-dark {
+  background-color: #222!important;
+}
+
+.navbar-brand {
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+  font-size: 25px!important;
+  color: #fff;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 5px #26bf80;
+}
+
+.nav-link {
+  font-family: 'Rajdhani', serif!important;
+  font-size: 25px!important;
+  text-transform: lowercase;
+}
+
+/* --- HEADER --- */
+
+#header {
+  padding-top: 150px;
+  padding-bottom: 250px;
+}
+
+.htitle {
+  font-family: 'Roboto Slab', serif;
+  font-size: 120px;
+  font-weight: normal;
+  color: #fff;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 10px #26bf80;
+}
+
+.present {
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+.desc {
+  margin-top: -20px;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.info {
+  margin-top: 15px;
+  font-family: 'Roboto Slab', serif;
+  border-top: 1px solid #eee;
+  font-size: 30px;
+  padding: 50px;
+}
+
+.register {
+  margin-top: -20px;
+  background: #338060;
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  color: #fff;
+  width: 150px !important;
+  margin-left: auto;
+  margin-right: auto;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.register a {
+  color: #fff !important;
+  font-size: 25px !important;
+  text-shadow: 0px 0px 10px #26bf80 !important;
+}
+
+.register:hover {
+  background: #26bf80 !important;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* --- ABOUT --- */
+
+#about {
+  padding-top: 50px;
+  padding-bottom: 250px;
+}
+
+.mtitle {
+  font-family: 'Rajdhani', serif;
+  font-size: 30px;
+  color: #26bf80;
+  text-transform: lowercase;
+  text-align: left;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* --- SCHEDULE --- */
+
+#schedule {
+  padding-top: 50px;
+  padding-bottom: 250px;
+}
+
+table {
+  width: 100%;
+  max-width: 800px;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+tr {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+tr:hover {
+  background: #333;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+col:first-child {
+  font-weight: bold!important;
+}
+
+/* --- SPONSORS --- */
+
+#sponsors {
+  padding-top: 50px;
+  padding-bottom: 250px;
+}
+
+/* --- FAQ --- */
+
+#faq {
+  padding-top: 50px;
+  padding-bottom: 250px;
+}
+
+.questions {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 50% 50%;
+}
+
+.question {
+  width: 100%;
+  padding: 10px;
+  max-width: 400px;
+  font-size: 14px!important;
+  display: block!important;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px!important;
+}
+
+/* --- CONTACT --- */
+
+#contact {
+  padding-top: 50px;
+  padding-bottom: 250px;
+}
+
+.ficons {
+  padding-top: 20px;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+.fab {
+  display: inline-block;
+  font: normal normal normal 50px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
