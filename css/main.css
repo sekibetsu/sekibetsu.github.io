@@ -244,3 +244,8 @@ h2 {
 .fab {
   display: inline-block;
 }
+
+/* --- COPYRIGHT --- */
+.copyright {
+  font-size: 10px!important;
+}
