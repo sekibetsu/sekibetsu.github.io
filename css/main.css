@@ -229,9 +229,6 @@ h2 {
   letter-spacing: 10px;
 }
 
-i {
+.fab {
   display: inline-block;
-  font: normal normal normal 50px/1 FontAwesome!important;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
 }
