@@ -1,7 +1,7 @@
 /* --- BASICS --- */
 
 body:not(i) {
-  font-family: 'Raleway', serif !important;
+  font-family: 'Raleway', serif;
   font-size: 18px !important;
   background-color: #222222 !important;
   color: #eeeeee !important;
@@ -229,9 +229,9 @@ h2 {
   letter-spacing: 10px;
 }
 
-.fab {
+i {
   display: inline-block;
-  font: normal normal normal 50px/1 FontAwesome;
+  font: normal normal normal 50px/1 FontAwesome!important;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
