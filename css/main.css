@@ -68,7 +68,7 @@ a:hover {
 /* --- HEADER --- */
 
 #header {
-  padding-top: 15%;
+  padding-top: 12.5%;
   padding-bottom: 20%;
 }
 
@@ -84,11 +84,12 @@ a:hover {
 
 @media (min-width: 800px) {
   .htitle {
-    font-size: 100px;
+    font-size: 120px;
   }
 }
 
 .present {
+  margin-top: -10px;
   font-size: 10px;
   font-style: italic;
   letter-spacing: 2px;
@@ -96,12 +97,13 @@ a:hover {
 
 @media (min-width: 800px) {
   .present {
+    margin-top: -20px;
     font-size: 14px!important;
   }
 }
 
 .desc {
-  margin-top: -10px;
+  margin-top: 10px;
   font-style: normal;
   font-size: 12px;
   text-transform: uppercase;
@@ -109,7 +111,7 @@ a:hover {
 
 @media (min-width: 800px) {
   .desc {
-    margin-top: -20px!important;
+    margin-top: 20px!important;
     font-size: 16px!important;
   }
 }
@@ -135,9 +137,9 @@ a:hover {
   background: #338060;
   padding: 5px 10px;
   border: 1px solid #eee;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #fff;
-  width: 150px !important;
+  width: 75px !important;
   margin-left: auto;
   margin-right: auto;
   touch-action: manipulation;
@@ -148,10 +150,23 @@ a:hover {
   transition: 0.5s;
 }
 
+@media (min-width: 800px) {
+  .register {
+    border-radius: 10px;
+    width: 150px;
+  }
+}
+
 .register a {
   color: #fff !important;
-  font-size: 25px !important;
-  text-shadow: 0px 0px 10px #26bf80 !important;
+  font-size: 15px!important;
+  text-shadow: 1px 1px 10px #26bf80 !important;
+}
+
+@media (min-width: 800px) {
+  .register a {
+    font-size: 25px;
+  }
 }
 
 .register:hover {
@@ -165,8 +180,8 @@ a:hover {
 /* --- ABOUT --- */
 
 #about {
-  padding-top: 50px;
-  padding-bottom: 250px;
+  padding-top: 12.5%;
+  padding-bottom: 20%;
 }
 
 .mtitle {
@@ -212,8 +227,8 @@ a:hover {
 /* --- SCHEDULE --- */
 
 #schedule {
-  padding-top: 50px;
-  padding-bottom: 250px;
+  padding-top: 12.5%;
+  padding-bottom: 20%;
 }
 
 table {
@@ -254,14 +269,14 @@ col:first-child {
 /* --- SPONSORS --- */
 
 #sponsors {
-  padding-top: 15%;
+  padding-top: 12.5%;
   padding-bottom: 20%;
 }
 
 /* --- FAQ --- */
 
 #faq {
-  padding-top: 15%;
+  padding-top: 12.5%;
   padding-bottom: 20%;
 }
 
@@ -303,8 +318,8 @@ h2 {
 /* --- CONTACT --- */
 
 #contact {
-  padding-top: 50px;
-  padding-bottom: 250px;
+  padding-top: 12.5%;
+  padding-bottom: 20%;
 }
 
 .ficons {
