@@ -84,7 +84,7 @@ a:hover {
 
 @media (min-width: 800px) {
   .htitle {
-    font-size: 120px;
+    font-size: 100px;
   }
 }
 
@@ -117,7 +117,7 @@ a:hover {
 }
 
 .info {
-  margin-top: 5px;
+  margin-top: 10px;
   font-family: 'Roboto Slab', serif;
   border-top: 1px solid #eee;
   font-size: 14px;
@@ -126,7 +126,6 @@ a:hover {
 
 @media (min-width: 800px) {
   .info {
-    margin-top: 15px!important;
     font-size: 30px!important;
     padding: 50px!important;
   }
@@ -139,7 +138,7 @@ a:hover {
   border: 1px solid #eee;
   border-radius: 5px;
   color: #fff;
-  width: 75px !important;
+  width: 100px!important;
   margin-left: auto;
   margin-right: auto;
   touch-action: manipulation;
@@ -152,8 +151,8 @@ a:hover {
 
 @media (min-width: 800px) {
   .register {
-    border-radius: 10px;
-    width: 150px;
+    border-radius: 10px!important;
+    width: 150px!important;
   }
 }
 
@@ -165,7 +164,7 @@ a:hover {
 
 @media (min-width: 800px) {
   .register a {
-    font-size: 25px;
+    font-size: 25px!important;
   }
 }
 
