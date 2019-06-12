@@ -74,7 +74,7 @@ a:hover {
 
 .htitle {
   font-family: 'Roboto Slab', serif;
-  font-size: 6em;
+  font-size: 60px;
   font-weight: normal;
   color: #fff;
   letter-spacing: 2px;
@@ -84,7 +84,7 @@ a:hover {
 
 @media (min-width: 800px) {
   .htitle {
-    font-size: 8em!important;
+    font-size: 100px;
   }
 }
 
@@ -123,9 +123,11 @@ a:hover {
 }
 
 @media (min-width: 800px) {
-  margin-top: 15px!important;
-  font-size: 30px!important;
-  padding: 50px!important;
+  .info {
+    margin-top: 15px!important;
+    font-size: 30px!important;
+    padding: 50px!important;
+  }
 }
 
 .register {
