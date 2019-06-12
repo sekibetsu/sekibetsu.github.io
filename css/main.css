@@ -1,15 +1,20 @@
 /* --- BASICS --- */
 
-body:not(i) {
-  position: relative;
+body {
   font-family: 'Raleway', serif;
-  font-size: 18px !important;
+  font-size: 10px !important;
   background-color: #222222 !important;
   color: #eeeeee !important;
   letter-spacing: 1px;
   margin: 0px;
-  padding-top: 50px;
   text-align: center;
+}
+
+@media (min-width: 800px) {
+  body {
+    font-size: 18px !important;
+    padding-top: 5%;
+  }
 }
 
 a {
@@ -31,8 +36,8 @@ a:hover {
 }
 
 .incontainer {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
   width: 75%;
   max-width: 800px;
   margin-left: auto;
@@ -63,36 +68,62 @@ a:hover {
 /* --- HEADER --- */
 
 #header {
-  padding-top: 150px;
-  padding-bottom: 250px;
+  padding-top: 15%;
+  padding-bottom: 20%;
 }
 
 .htitle {
   font-family: 'Roboto Slab', serif;
-  font-size: 120px;
+  font-size: 6em;
   font-weight: normal;
   color: #fff;
   letter-spacing: 2px;
   text-shadow: 1px 1px 10px #26bf80;
+  line-height: 75%;
+}
+
+@media (min-width: 800px) {
+  .htitle {
+    font-size: 10em;
+  }
 }
 
 .present {
-  font-size: 14px;
+  font-size: 10px;
   font-style: italic;
   letter-spacing: 2px;
 }
 
+@media (min-width: 800px) {
+  .present {
+    font-size: 14px;
+  }
+}
+
 .desc {
-  margin-top: -20px;
+  margin-top: -10px;
   font-style: normal;
-  font-size: 16px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
+@media (min-width: 800px) {
+  .desc {
+    margin-top: -20px;
+    font-size: 16px;
+  }
+}
+
 .info {
-  margin-top: 15px;
+  margin-top: 5px;
   font-family: 'Roboto Slab', serif;
   border-top: 1px solid #eee;
+  font-size: 14px;
+  padding: 5px;
+}
+
+@media (min-width: 800px) {
+  margin-top: 15px;
   font-size: 30px;
   padding: 50px;
 }
@@ -138,22 +169,35 @@ a:hover {
 
 .mtitle {
   font-family: 'Rajdhani', serif;
-  font-size: 30px;
+  font-size: 16px;
   color: #26bf80;
   text-transform: lowercase;
   text-align: left;
-  padding: 5px;
   border-bottom: 1px solid #eee;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 800px) {
+  font-size: 30px;
+  padding: 5px;
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
 .stitle {
   font-family: 'Rajdhani', serif;
-  font-size: 25px;
+  font-size: 14px;
   color: #338060;
   text-transform: lowercase;
   text-align: left;
+  padding: 0px 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 800px) {
+  font-size: 25px;
   padding: 5px 15px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -173,7 +217,13 @@ table {
 
 th, td {
   text-align: left;
-  padding: 10px;
+  padding: 5px;
+}
+
+@media (min-width: 800px) {
+  th, td {
+    padding: 10px;
+  }
 }
 
 tr {
@@ -198,33 +248,49 @@ col:first-child {
 /* --- SPONSORS --- */
 
 #sponsors {
-  padding-top: 50px;
-  padding-bottom: 250px;
+  padding-top: 15%;
+  padding-bottom: 20%;
 }
 
 /* --- FAQ --- */
 
 #faq {
-  padding-top: 50px;
-  padding-bottom: 250px;
+  padding-top: 15%;
+  padding-bottom: 20%;
 }
 
 .questions {
+  display: inline-block;
+}
+
+@media (min-width: 800px) {
+  .questions {
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: 50% 50%;
+  }
 }
 
 .question {
   width: 100%;
-  padding: 10px;
-  max-width: 400px;
-  font-size: 14px!important;
-  display: block!important;
+  font-size: 10px;
+}
+
+@media (min-width: 800px) {
+  .question {
+    padding: 10px;
+    max-width: 400px;
+    font-size: 14px!important;
+    display: block!important;
+  }
 }
 
 h2 {
   font-family: 'Roboto Slab', serif;
+  font-size: 14px!important;
+}
+
+@media (min-width: 800px) {
   font-size: 18px!important;
 }
 
@@ -237,8 +303,14 @@ h2 {
 
 .ficons {
   padding-top: 20px;
-  font-size: 50px;
+  font-size: 25px;
   letter-spacing: 10px;
+}
+
+@media (min-width: 800px) {
+  .ficons {
+    font-size: 50px;
+  }
 }
 
 .fab {
@@ -249,5 +321,9 @@ h2 {
 .copyright {
   padding-top: 50px;
   padding-bottom: 50px;
+  font-size: 8px!important;
+}
+
+@media (min-width: 800px) {
   font-size: 12px!important;
 }
