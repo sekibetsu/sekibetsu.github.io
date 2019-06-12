@@ -84,7 +84,7 @@ a:hover {
 
 @media (min-width: 800px) {
   .htitle {
-    font-size: 10em;
+    font-size: 8em!important;
   }
 }
 
@@ -96,7 +96,7 @@ a:hover {
 
 @media (min-width: 800px) {
   .present {
-    font-size: 14px;
+    font-size: 14px!important;
   }
 }
 
@@ -109,8 +109,8 @@ a:hover {
 
 @media (min-width: 800px) {
   .desc {
-    margin-top: -20px;
-    font-size: 16px;
+    margin-top: -20px!important;
+    font-size: 16px!important;
   }
 }
 
@@ -123,9 +123,9 @@ a:hover {
 }
 
 @media (min-width: 800px) {
-  margin-top: 15px;
-  font-size: 30px;
-  padding: 50px;
+  margin-top: 15px!important;
+  font-size: 30px!important;
+  padding: 50px!important;
 }
 
 .register {
@@ -179,10 +179,12 @@ a:hover {
 }
 
 @media (min-width: 800px) {
-  font-size: 30px;
-  padding: 5px;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  .mtitle {
+    font-size: 30px!important;
+    padding: 5px!important;
+    margin-top: 50px!important;
+    margin-bottom: 30px!important;
+  }
 }
 
 .stitle {
@@ -197,10 +199,12 @@ a:hover {
 }
 
 @media (min-width: 800px) {
-  font-size: 25px;
-  padding: 5px 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  .stitle {
+    font-size: 25px!important;
+    padding: 5px 15px!important;
+    margin-top: 15px!important;
+    margin-bottom: 15px!important;
+  }
 }
 
 /* --- SCHEDULE --- */
@@ -222,7 +226,7 @@ th, td {
 
 @media (min-width: 800px) {
   th, td {
-    padding: 10px;
+    padding: 10px!important;
   }
 }
 
@@ -265,7 +269,7 @@ col:first-child {
 
 @media (min-width: 800px) {
   .questions {
-    display: grid;
+    display: grid!important;
     grid-template-rows: auto auto;
     grid-template-columns: 50% 50%;
   }
@@ -279,7 +283,7 @@ col:first-child {
 @media (min-width: 800px) {
   .question {
     padding: 10px;
-    max-width: 400px;
+    max-width: 400px!important;
     font-size: 14px!important;
     display: block!important;
   }
@@ -309,7 +313,7 @@ h2 {
 
 @media (min-width: 800px) {
   .ficons {
-    font-size: 50px;
+    font-size: 50px!important;
   }
 }
 
