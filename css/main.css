@@ -347,5 +347,7 @@ h2 {
 }
 
 @media (min-width: 800px) {
-  font-size: 12px!important;
+  .copyright {
+    font-size: 12px!important;
+  }
 }
