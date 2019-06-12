@@ -96,7 +96,7 @@ a:hover {
 }
 
 .present {
-  margin-top: -30px;
+  margin-top: -50px;
   font-size: 10px;
   font-style: italic;
   letter-spacing: 2px;
@@ -104,7 +104,7 @@ a:hover {
 
 @media (min-width: 800px) {
   .present {
-    margin-top: -40px;
+    margin-top: -75px;
     font-size: 14px!important;
   }
 }
@@ -187,13 +187,19 @@ a:hover {
 /* --- ABOUT --- */
 
 #about {
-  padding-top: 5%;
+  padding-top: 10%;
   padding-bottom: 25%;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 600px) {
   #about {
-    padding-top: 10%;
+    padding-top: 8%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #about {
+    padding-top: 4%;
   }
 }
 
@@ -240,13 +246,19 @@ a:hover {
 /* --- SCHEDULE --- */
 
 #schedule {
-  padding-top: 5%;
+  padding-top: 10%;
   padding-bottom: 25%;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 600px) {
   #schedule {
-    padding-top: 10%;
+    padding-top: 8%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #schedule {
+    padding-top: 4%;
   }
 }
 
@@ -288,26 +300,38 @@ col:first-child {
 /* --- SPONSORS --- */
 
 #sponsors {
-  padding-top: 5%;
+  padding-top: 10%;
   padding-bottom: 25%;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 600px) {
   #sponsors {
-    padding-top: 10%;
+    padding-top: 8%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #sponsors {
+    padding-top: 4%;
   }
 }
 
 /* --- FAQ --- */
 
 #faq {
-  padding-top: 5%;
-  padding-bottom: 20%;
+  padding-top: 10%;
+  padding-bottom: 25%;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 600px) {
   #faq {
-    padding-top: 10%;
+    padding-top: 8%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #faq {
+    padding-top: 4%;
   }
 }
 
@@ -351,13 +375,19 @@ h2 {
 /* --- CONTACT --- */
 
 #contact {
-  padding-top: 5%;
+  padding-top: 10%;
   padding-bottom: 25%;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 600px) {
   #contact {
-    padding-top: 10%;
+    padding-top: 8%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #contact {
+    padding-top: 4%;
   }
 }
 
