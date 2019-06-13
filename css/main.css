@@ -68,25 +68,38 @@ a:hover {
 /* --- HEADER --- */
 
 #header {
-  padding-top: 12.5%;
-  padding-bottom: 20%;
+  padding-top: 50%;
+  padding-bottom: 50%;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 600px) {
   #header {
     padding-top: 25%;
     padding-bottom: 40%;
   }
 }
 
+@media (min-width: 800px) {
+  #header {
+    padding-top: 12.5%;
+    padding-bottom: 20%;
+  }
+}
+
 .htitle {
   font-family: 'Roboto Slab', serif;
-  font-size: 60px;
+  font-size: 25px;
   font-weight: normal;
   color: #fff;
   letter-spacing: 2px;
   text-shadow: 1px 1px 10px #26bf80;
   line-height: 75%;
+}
+
+@media (min-width: 600px) {
+  .htitle {
+    font-size: 60px;
+  }
 }
 
 @media (min-width: 800px) {
