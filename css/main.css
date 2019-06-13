@@ -68,8 +68,8 @@ a:hover {
 /* --- HEADER --- */
 
 #header {
-  padding-top: 50%;
-  padding-bottom: 50%;
+  padding-top: 75%;
+  padding-bottom: 100%;
 }
 
 @media (min-width: 600px) {
@@ -110,7 +110,7 @@ a:hover {
 
 .present {
   margin-top: -50px;
-  font-size: 10px;
+  font-size: 12px;
   font-style: italic;
   letter-spacing: 2px;
 }
@@ -125,7 +125,7 @@ a:hover {
 .desc {
   margin-top: 10px;
   font-style: normal;
-  font-size: 10px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
@@ -201,7 +201,7 @@ a:hover {
 
 #about {
   padding-top: 10%;
-  padding-bottom: 50%;
+  padding-bottom: 100%;
 }
 
 @media (min-width: 600px) {
@@ -214,6 +214,7 @@ a:hover {
 @media (min-width: 1000px) {
   #about {
     padding-top: 4%;
+    padding-bottom: 25%;
   }
 }
 
@@ -261,7 +262,7 @@ a:hover {
 
 #schedule {
   padding-top: 10%;
-  padding-bottom: 50%;
+  padding-bottom: 100%;
 }
 
 @media (min-width: 600px) {
@@ -274,6 +275,7 @@ a:hover {
 @media (min-width: 1000px) {
   #schedule {
     padding-top: 4%;
+    padding-bottom: 25%;
   }
 }
 
@@ -316,7 +318,7 @@ col:first-child {
 
 #sponsors {
   padding-top: 10%;
-  padding-bottom: 50%;
+  padding-bottom: 100%;
 }
 
 @media (min-width: 600px) {
@@ -329,6 +331,7 @@ col:first-child {
 @media (min-width: 1000px) {
   #sponsors {
     padding-top: 4%;
+    padding-bottom: 25%;
   }
 }
 
@@ -336,7 +339,7 @@ col:first-child {
 
 #faq {
   padding-top: 10%;
-  padding-bottom: 50%;
+  padding-bottom: 100%;
 }
 
 @media (min-width: 600px) {
@@ -349,6 +352,7 @@ col:first-child {
 @media (min-width: 1000px) {
   #faq {
     padding-top: 4%;
+    padding-bottom: 25%;
   }
 }
 
@@ -393,7 +397,7 @@ h2 {
 
 #contact {
   padding-top: 10%;
-  padding-bottom: 50%;
+  padding-bottom: 100%;
 }
 
 @media (min-width: 600px) {
@@ -406,6 +410,7 @@ h2 {
 @media (min-width: 1000px) {
   #contact {
     padding-top: 4%;
+    padding-bottom: 25%;
   }
 }
 
