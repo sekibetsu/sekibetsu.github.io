@@ -88,7 +88,7 @@ a:hover {
 
 .htitle {
   font-family: 'Roboto Slab', serif;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: normal;
   color: #fff;
   letter-spacing: 2px;
@@ -201,12 +201,13 @@ a:hover {
 
 #about {
   padding-top: 10%;
-  padding-bottom: 25%;
+  padding-bottom: 50%;
 }
 
 @media (min-width: 600px) {
   #about {
     padding-top: 8%;
+    padding-bottom: 25%;
   }
 }
 
@@ -260,12 +261,13 @@ a:hover {
 
 #schedule {
   padding-top: 10%;
-  padding-bottom: 25%;
+  padding-bottom: 50%;
 }
 
 @media (min-width: 600px) {
   #schedule {
     padding-top: 8%;
+    padding-bottom: 25%;
   }
 }
 
@@ -314,12 +316,13 @@ col:first-child {
 
 #sponsors {
   padding-top: 10%;
-  padding-bottom: 25%;
+  padding-bottom: 50%;
 }
 
 @media (min-width: 600px) {
   #sponsors {
     padding-top: 8%;
+    padding-bottom: 25%;
   }
 }
 
@@ -333,12 +336,13 @@ col:first-child {
 
 #faq {
   padding-top: 10%;
-  padding-bottom: 25%;
+  padding-bottom: 50%;
 }
 
 @media (min-width: 600px) {
   #faq {
     padding-top: 8%;
+    padding-bottom: 25%;
   }
 }
 
@@ -389,12 +393,13 @@ h2 {
 
 #contact {
   padding-top: 10%;
-  padding-bottom: 25%;
+  padding-bottom: 50%;
 }
 
 @media (min-width: 600px) {
   #contact {
     padding-top: 8%;
+    padding-bottom: 25%;
   }
 }
 
