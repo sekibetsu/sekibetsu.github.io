@@ -81,8 +81,8 @@ a:hover {
 
 @media (min-width: 800px) {
   #header {
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 15%;
+    padding-bottom: 30%;
   }
 }
 
@@ -110,6 +110,7 @@ a:hover {
 
 .present {
   margin-top: -50px;
+  padding-bottom: 10px;
   font-size: 12px;
   font-style: italic;
   letter-spacing: 2px;
@@ -118,6 +119,7 @@ a:hover {
 @media (min-width: 800px) {
   .present {
     margin-top: -75px;
+    padding-bottom: 15px!important;
     font-size: 14px!important;
   }
 }
@@ -131,7 +133,7 @@ a:hover {
 
 @media (min-width: 800px) {
   .desc {
-    margin-top: 20px!important;
+    margin-top: 15px!important;
     font-size: 16px!important;
   }
 }
